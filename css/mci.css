@@ -1,0 +1,96 @@
+/* 
+Manual Coding Interface v. 1.0
+
+Dr. Johannes N. Blumenberg
+www.Manual-Coding.com
+Johannes.Blumenberg@gesis.org
+
+If you use this software, please cite me:
+Blumenberg, Johannes N. (2018). Manual Coding Interface – A web interface to facilitate the 
+coding of open-ended (survey) questions. v. 1.0. Available at www.Manual-Coding.com.
+
+***********************************************************************************
+
+MIT License
+
+Copyright (c) 2018 Johannes N. Blumenberg
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+***********************************************************************************
+
+This is the css file.
+
+*/
+
+
+.field { background-color:#FFFFFF; border: 1px solid #999999; font-family:tahoma; font-size:13px; color:#000000; text-decoration:none; }
+.button { border: 1px solid #999999; background-color: #FFFFFF; color: #000000; font-size: 13px; font-family: tahoma; }
+a:link { font-family:tahoma; text-decoration:none; color: #000000 }
+a:visited { font-family:tahoma; text-decoration:none; color: #000000 }
+a:hover { font-family:tahoma; text-decoration:underline; color: #0099CC }
+p.marginaus { margin-top:0px; padding-top:0px; }
+div.marginaus { margin-top:0px; padding-top:0px; }
+blockquote.marginaus { margin-top:0px; padding-top:0px; }
+h1 {font-size: 3em; font-weight: bold; padding-bottom: 20px; padding-top: 50px }
+h2 {font-size: 1.4em; font-weight: bold; padding-top: 15px; color: #ff6c06;}
+h3 {font-size: 1.1em; font-weight: bold; padding-top: 10px; color: #000000;}
+
+
+.blue {
+	background-color: #CAD9E3;
+	padding-left:5px;
+	padding-right:5px;
+}
+.grey {
+	background-color: #E9E9E9;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+body {
+ color:#000000;
+ font-family:tahoma, sans-serif;
+ font-size:13px;
+ }
+
+td {
+ font-family:tahoma, sans-serif;
+ font-size:13px;
+}
+
+#wrapper {
+   width:800px;
+   min-height:100%;
+   background-color: #dee0e3;
+   margin-top: 0;
+   margin-right: auto;
+   margin-bottom: 0;
+   margin-left: auto;
+   padding-right:5px;
+   padding-left:5px;
+}
+
+#fixed {
+  position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+  width: 800px;
+  background-color: #eeeeee;
+}
